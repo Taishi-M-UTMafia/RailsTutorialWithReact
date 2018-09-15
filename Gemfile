@@ -11,7 +11,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'react-rails'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass'           # これあればjQuery不要 
+gem 'bcrypt',         '3.1.12' # パスワードのハッシュ化のため
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
